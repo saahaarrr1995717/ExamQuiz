@@ -8,6 +8,7 @@ public class DataManager {
     public static void loadData(ArrayList<Galaxy> galaxies, String filename) {
         try {
             File file = new File(filename);
+
             if (!file.exists()) {
                 return;
             }
